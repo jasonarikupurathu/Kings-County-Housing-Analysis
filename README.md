@@ -15,13 +15,8 @@ We found a prediction model that best predicted the price by using recursive fea
 
 ## Data Set Information
 
-This data set contains information about houses that were sold in the Seattle area during the last decade. Below is a description of the column names, to help you understand what the data represents. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
+This data set contains information about houses that were sold in the Seattle area during the last decade. Below is a description of the column names, to help you understand what the data represents. 
 
-Like every data set, there are some irregularities and quirks. Trust me, there wasn't a house sold with 33 bedrooms, even though the data says there was. *You have to decide how you want to handle that example*. Also, some houses were sold more than once within the time frame of this dataset. Think about how that can be useful information in predicting the selling price.
-
-As you go through this modeling process, think about what determines how much someone will pay for a house.  For example, the larger the house is, the more people will pay for it. If you understand why certain houses cost more than others and represent that in your model, it will be a more accurate model.
-
-Have fun!
 
 # Column Names and descriptions for Kings County Data Set
 * **id** - unique ID for a house
@@ -49,16 +44,16 @@ Have fun!
 
 ## GitHub Repository
 
-├── README.md                                         <- The top-level README for reviewers of this project
-├── Kings_County_Housing_Version_2.ipynb              <- Main Analysis Includes: Inference & Prediction Models
-├── Predict_holdout.ipynb											        <- Main Notebook for final predictions
-├── housing_preds_jason_arikupurathu.csv							<- CSV for final predictions generated from Predict_holdout
-├── data                                              <- Both sourced externally
-		└ kc_house_data_test_features.csv												<- Test set csv
-		└ kc_house_data_train.csv 															<- Train set csv
-├── notes                                             <- Contains old notebooks and project guidelines
-├── presentation-slides                               <- Contains presentation slides
-		└ Slides-KCH-Analysis-Inference.pdf               			<- Presentation Slides
-└── pickled_files                                     <- Contains Pickled Files
-		└ model.pickle                                     			<- Model pickled
-		└ other_info.pickle 																		<- Information to be passed pickled
+	├── README.md                                         <- The top-level README for reviewers of this project
+	├── Kings_County_Housing_Version_2.ipynb              <- Main Analysis Includes: Inference & Prediction Models
+	├── Predict_holdout.ipynb											        <- Main Notebook for final predictions
+	├── housing_preds_jason_arikupurathu.csv							<- CSV for final predictions generated from Predict_holdout
+	├── data                                              <- Both sourced externally
+			└ kc_house_data_test_features.csv												<- Test set csv
+			└ kc_house_data_train.csv 															<- Train set csv
+	├── notes                                             <- Contains old notebooks and project guidelines
+	├── presentation-slides                               <- Contains presentation slides
+			└ Slides-KCH-Analysis-Inference.pdf               			<- Presentation Slides
+	└── pickled_files                                     <- Contains Pickled Files
+			└ model.pickle                                     			<- Model pickled
+			└ other_info.pickle 																		<- Information to be passed pickled
