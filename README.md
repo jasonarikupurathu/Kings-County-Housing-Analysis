@@ -15,7 +15,7 @@ We found a prediction model that best predicted the price by using recursive fea
 
 ## Data Set Information
 
-This data set contains information about houses that were sold in the Seattle area during the last decade. Below is a description of the column names, to help you understand what the data represents. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
+This data set contains information about houses that were sold in the Seattle area during the last decade. Below is a description of the column names, to help you understand what the data represents. 
 
 
 # Column Names and descriptions for Kings County Data Set
